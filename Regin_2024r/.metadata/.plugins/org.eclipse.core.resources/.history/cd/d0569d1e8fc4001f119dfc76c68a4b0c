@@ -1,0 +1,31 @@
+/*
+ * Trubine.c
+ *
+ *  Created on: Dec 27, 2024
+ *      Author: Szymon
+ */
+
+
+#include "main.h"
+#include "Turbine.h"
+
+
+void Turbine_init(Turbine_t *turbine, TIM_HandleTypeDef *Timer, uint32_t Channel, uint32_t delay)
+{
+	turbine->Timer = Timer;
+	turbine->Channel = Channel;
+	turbine->delay = delay;
+
+	HAL_TIM_PWM_Start(&turbine->Timer, turbine->Channel);
+}
+
+void Turbine_Start(Turbine_t *turbine)
+{
+	HAL_Delay(turbine->delay);
+	__HAL_TIM_SET_COMPARE(turbine->Timer,turbine->Channel, turbine->Speed);
+}
+
+void Turbine_Stop(Turbine_t *turbine)
+{
+	__HAL_TIM_SET_COMPARE(turbine->Timer,turbine->Channel, 0);
+}

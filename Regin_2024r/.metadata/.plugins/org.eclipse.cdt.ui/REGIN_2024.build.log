@@ -1,0 +1,17 @@
+01:37:28 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  61632	    492	   2436	  64560	   fc30	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+
+01:37:32 Build Finished. 0 errors, 0 warnings. (took 3s.74ms)
+

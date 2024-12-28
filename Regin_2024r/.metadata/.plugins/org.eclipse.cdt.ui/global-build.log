@@ -1,0 +1,1466 @@
+16:24:32 **** Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_adc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_dma_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_exti.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_flash_ramfunc.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_gpio.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_tim_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_hal_uart_ex.o"
+arm-none-eabi-gcc "../Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.d" -MT"Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32G4xx_HAL_Driver/Src/stm32g4xx_ll_adc.o"
+arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32g474retx.d" -MT"Core/Startup/startup_stm32g474retx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32g474retx.o" "../Core/Startup/startup_stm32g474retx.s"
+arm-none-eabi-gcc "../Core/Src/adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/adc.d" -MT"Core/Src/adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/adc.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32g4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32g4xx_hal_msp.d" -MT"Core/Src/stm32g4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32g4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32g4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32g4xx_it.d" -MT"Core/Src/stm32g4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32g4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32g4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32g4xx.d" -MT"Core/Src/system_stm32g4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32g4xx.o"
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc "../Core/Src/usart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/usart.d" -MT"Core/Src/usart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usart.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  21204	     20	   1900	  23124	   5a54	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+16:38:54 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/adc.d" -MT"Core/Src/adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/adc.o"
+arm-none-eabi-gcc "../Core/Src/dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/dma.d" -MT"Core/Src/dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/dma.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32g4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32g4xx_hal_msp.d" -MT"Core/Src/stm32g4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32g4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32g4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32g4xx_it.d" -MT"Core/Src/stm32g4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32g4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32g4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32g4xx.d" -MT"Core/Src/system_stm32g4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32g4xx.o"
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc "../Core/Src/usart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/usart.d" -MT"Core/Src/usart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usart.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  22380	     20	   1996	  24396	   5f4c	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+16:44:43 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/Line_Follower.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Line_Follower.d" -MT"Core/Src/Line_Follower.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Line_Follower.o"
+arm-none-eabi-gcc "../Core/Src/RingBuffer.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/RingBuffer.d" -MT"Core/Src/RingBuffer.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/RingBuffer.o"
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc "../Core/Src/adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/adc.d" -MT"Core/Src/adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/adc.o"
+../Core/Src/SimpleParser.c: In function 'App_Controll':
+../Core/Src/SimpleParser.c:133:22: error: 'hlpuart1' undeclared (first use in this function); did you mean 'huart1'?
+  133 |   HAL_UART_Transmit(&hlpuart1, buffer, strlen((char*)buffer), 100);
+      |                      ^~~~~~~~
+      |                      huart1
+../Core/Src/SimpleParser.c:133:22: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:58: Core/Src/SimpleParser.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+16:44:51 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc "../Core/Src/dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/dma.d" -MT"Core/Src/dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/dma.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/SimpleParser.c: In function 'App_Controll':
+../Core/Src/SimpleParser.c:133:22: error: 'hlpuart1' undeclared (first use in this function); did you mean 'huart1'?
+  133 |   HAL_UART_Transmit(&hlpuart1, buffer, strlen((char*)buffer), 100);
+      |                      ^~~~~~~~
+      |                      huart1
+../Core/Src/SimpleParser.c:133:22: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:58: Core/Src/SimpleParser.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/main.c:69:2: error: unknown type name 'motor_t'
+   69 |  motor_t Motor_L;
+      |  ^~~~~~~
+../Core/Src/main.c:70:2: error: unknown type name 'motor_t'
+   70 |  motor_t Motor_R;
+      |  ^~~~~~~
+../Core/Src/main.c:116:22: error: expected declaration specifiers or '...' before '&' token
+  116 |    HAL_ADC_Start_DMA(&hadc1, (uint32_t*)&GRUZIK.Adc_Value, 1);
+      |                      ^
+../Core/Src/main.c:116:30: error: expected declaration specifiers or '...' before '(' token
+  116 |    HAL_ADC_Start_DMA(&hadc1, (uint32_t*)&GRUZIK.Adc_Value, 1);
+      |                              ^
+../Core/Src/main.c:116:60: error: expected declaration specifiers or '...' before numeric constant
+  116 |    HAL_ADC_Start_DMA(&hadc1, (uint32_t*)&GRUZIK.Adc_Value, 1);
+      |                                                            ^
+../Core/Src/main.c:119:11: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+  119 |     GRUZIK.Kp = 0.02;
+      |           ^
+../Core/Src/main.c:120:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+  120 |    GRUZIK.Kd = 0.1;
+      |          ^
+../Core/Src/main.c:121:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+  121 |    GRUZIK.Speed_offset = 0.014;
+      |          ^
+../Core/Src/main.c:123:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+  123 |    GRUZIK.Base_speed_R = 120;
+      |          ^
+../Core/Src/main.c:124:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+  124 |    GRUZIK.Base_speed_L = 120;
+      |          ^
+../Core/Src/main.c:125:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+  125 |    GRUZIK.Max_speed_R = 120;
+      |          ^
+../Core/Src/main.c:126:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+  126 |    GRUZIK.Max_speed_L = 120;
+      |          ^
+../Core/Src/main.c:129:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+  129 |    GRUZIK.Sharp_bend_speed_right=-70;
+      |          ^
+../Core/Src/main.c:130:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+  130 |    GRUZIK.Sharp_bend_speed_left=85;
+      |          ^
+../Core/Src/main.c:131:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+  131 |    GRUZIK.Bend_speed_right=-50;
+      |          ^
+../Core/Src/main.c:132:10: error: expected '=', ',', ';', 'asm' or '__attribute__' before '.' token
+  132 |    GRUZIK.Bend_speed_left=110;
+      |          ^
+../Core/Src/main.c:135:25: error: expected declaration specifiers or '...' before '&' token
+  135 |     HAL_UART_Receive_IT(&hlpuart1, &RxData, 1);
+      |                         ^
+../Core/Src/main.c:135:36: error: expected declaration specifiers or '...' before '&' token
+  135 |     HAL_UART_Receive_IT(&hlpuart1, &RxData, 1);
+      |                                    ^
+../Core/Src/main.c:135:45: error: expected declaration specifiers or '...' before numeric constant
+  135 |     HAL_UART_Receive_IT(&hlpuart1, &RxData, 1);
+      |                                             ^
+../Core/Src/main.c:138:27: error: expected declaration specifiers or '...' before '&' token
+  138 |     HAL_TIM_Base_Start_IT(&htim5);// 100
+      |                           ^
+../Core/Src/main.c:139:27: error: expected declaration specifiers or '...' before '&' token
+  139 |     HAL_TIM_Encoder_Start(&htim4, TIM_CHANNEL_ALL); // Left Encoder
+      |                           ^
+In file included from ../Core/Inc/stm32g4xx_hal_conf.h:344,
+                 from ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h:828:44: error: expected declaration specifiers or '...' before numeric constant
+  828 | #define TIM_CHANNEL_ALL                    0x0000003CU                          /*!< Global Capture/compare channel identifier  */
+      |                                            ^~~~~~~~~~~
+../Core/Src/main.c:139:35: note: in expansion of macro 'TIM_CHANNEL_ALL'
+  139 |     HAL_TIM_Encoder_Start(&htim4, TIM_CHANNEL_ALL); // Left Encoder
+      |                                   ^~~~~~~~~~~~~~~
+../Core/Src/main.c:140:27: error: expected declaration specifiers or '...' before '&' token
+  140 |     HAL_TIM_Encoder_Start(&htim1, TIM_CHANNEL_ALL); // Right Encoder
+      |                           ^
+In file included from ../Core/Inc/stm32g4xx_hal_conf.h:344,
+                 from ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h:828:44: error: expected declaration specifiers or '...' before numeric constant
+  828 | #define TIM_CHANNEL_ALL                    0x0000003CU                          /*!< Global Capture/compare channel identifier  */
+      |                                            ^~~~~~~~~~~
+../Core/Src/main.c:140:35: note: in expansion of macro 'TIM_CHANNEL_ALL'
+  140 |     HAL_TIM_Encoder_Start(&htim1, TIM_CHANNEL_ALL); // Right Encoder
+      |                                   ^~~~~~~~~~~~~~~
+../Core/Src/main.c:142:16: error: expected declaration specifiers or '...' before '&' token
+  142 |     Motor_Init(&Motor_R, 0.1, 0.1, 10000, 0.01);
+      |                ^
+../Core/Src/main.c:142:26: error: expected declaration specifiers or '...' before numeric constant
+  142 |     Motor_Init(&Motor_R, 0.1, 0.1, 10000, 0.01);
+      |                          ^~~
+../Core/Src/main.c:142:31: error: expected declaration specifiers or '...' before numeric constant
+  142 |     Motor_Init(&Motor_R, 0.1, 0.1, 10000, 0.01);
+      |                               ^~~
+../Core/Src/main.c:142:36: error: expected declaration specifiers or '...' before numeric constant
+  142 |     Motor_Init(&Motor_R, 0.1, 0.1, 10000, 0.01);
+      |                                    ^~~~~
+../Core/Src/main.c:142:43: error: expected declaration specifiers or '...' before numeric constant
+  142 |     Motor_Init(&Motor_R, 0.1, 0.1, 10000, 0.01);
+      |                                           ^~~~
+../Core/Src/main.c:143:16: error: expected declaration specifiers or '...' before '&' token
+  143 |     Motor_Init(&Motor_L, 0.1, 0.1, 10000, 0.01);
+      |                ^
+../Core/Src/main.c:143:26: error: expected declaration specifiers or '...' before numeric constant
+  143 |     Motor_Init(&Motor_L, 0.1, 0.1, 10000, 0.01);
+      |                          ^~~
+../Core/Src/main.c:143:31: error: expected declaration specifiers or '...' before numeric constant
+  143 |     Motor_Init(&Motor_L, 0.1, 0.1, 10000, 0.01);
+      |                               ^~~
+../Core/Src/main.c:143:36: error: expected declaration specifiers or '...' before numeric constant
+  143 |     Motor_Init(&Motor_L, 0.1, 0.1, 10000, 0.01);
+      |                                    ^~~~~
+../Core/Src/main.c:143:43: error: expected declaration specifiers or '...' before numeric constant
+  143 |     Motor_Init(&Motor_L, 0.1, 0.1, 10000, 0.01);
+      |                                           ^~~~
+../Core/Src/main.c:146:24: error: expected declaration specifiers or '...' before '&' token
+  146 |  HAL_TIM_Base_Start_IT(&htim3);
+      |                        ^
+../Core/Src/main.c:147:20: error: expected declaration specifiers or '...' before '&' token
+  147 |  HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);//right pwm
+      |                    ^
+In file included from ../Core/Inc/stm32g4xx_hal_conf.h:344,
+                 from ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h:822:44: error: expected declaration specifiers or '...' before numeric constant
+  822 | #define TIM_CHANNEL_1                      0x00000000U                          /*!< Capture/compare channel 1 identifier      */
+      |                                            ^~~~~~~~~~~
+../Core/Src/main.c:147:28: note: in expansion of macro 'TIM_CHANNEL_1'
+  147 |  HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_1);//right pwm
+      |                            ^~~~~~~~~~~~~
+../Core/Src/main.c:148:20: error: expected declaration specifiers or '...' before '&' token
+  148 |  HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_4);//left pwm
+      |                    ^
+In file included from ../Core/Inc/stm32g4xx_hal_conf.h:344,
+                 from ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h:825:44: error: expected declaration specifiers or '...' before numeric constant
+  825 | #define TIM_CHANNEL_4                      0x0000000CU                          /*!< Capture/compare channel 4 identifier      */
+      |                                            ^~~~~~~~~~~
+../Core/Src/main.c:148:28: note: in expansion of macro 'TIM_CHANNEL_4'
+  148 |  HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_4);//left pwm
+      |                            ^~~~~~~~~~~~~
+../Core/Src/main.c:151:5: warning: data definition has no type or storage class
+  151 |     HAL_GPIO_WritePin(LED_4_GPIO_Port, LED_4_Pin, GPIO_PIN_SET);
+      |     ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:151:5: warning: type defaults to 'int' in declaration of 'HAL_GPIO_WritePin' [-Wimplicit-int]
+../Core/Src/main.c:151:5: warning: parameter names (without types) in function declaration
+../Core/Src/main.c:151:5: error: conflicting types for 'HAL_GPIO_WritePin'
+In file included from ../Core/Inc/stm32g4xx_hal_conf.h:216,
+                 from ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h:299:19: note: previous declaration of 'HAL_GPIO_WritePin' was here
+  299 | void              HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                   ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:152:5: warning: data definition has no type or storage class
+  152 |     HAL_GPIO_WritePin(LED_3_GPIO_Port, LED_3_Pin, GPIO_PIN_SET);
+      |     ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:152:5: warning: type defaults to 'int' in declaration of 'HAL_GPIO_WritePin' [-Wimplicit-int]
+../Core/Src/main.c:152:5: warning: parameter names (without types) in function declaration
+../Core/Src/main.c:152:5: error: conflicting types for 'HAL_GPIO_WritePin'
+In file included from ../Core/Inc/stm32g4xx_hal_conf.h:216,
+                 from ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h:299:19: note: previous declaration of 'HAL_GPIO_WritePin' was here
+  299 | void              HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                   ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:153:5: warning: data definition has no type or storage class
+  153 |     HAL_GPIO_WritePin(LED_2_GPIO_Port, LED_2_Pin, GPIO_PIN_SET);
+      |     ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:153:5: warning: type defaults to 'int' in declaration of 'HAL_GPIO_WritePin' [-Wimplicit-int]
+../Core/Src/main.c:153:5: warning: parameter names (without types) in function declaration
+../Core/Src/main.c:153:5: error: conflicting types for 'HAL_GPIO_WritePin'
+In file included from ../Core/Inc/stm32g4xx_hal_conf.h:216,
+                 from ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h:299:19: note: previous declaration of 'HAL_GPIO_WritePin' was here
+  299 | void              HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                   ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:154:5: warning: data definition has no type or storage class
+  154 |     HAL_GPIO_WritePin(LED_1_GPIO_Port, LED_1_Pin, GPIO_PIN_SET);
+      |     ^~~~~~~~~~~~~~~~~
+../Core/Src/main.c:154:5: warning: type defaults to 'int' in declaration of 'HAL_GPIO_WritePin' [-Wimplicit-int]
+../Core/Src/main.c:154:5: warning: parameter names (without types) in function declaration
+../Core/Src/main.c:154:5: error: conflicting types for 'HAL_GPIO_WritePin'
+In file included from ../Core/Inc/stm32g4xx_hal_conf.h:216,
+                 from ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h:299:19: note: previous declaration of 'HAL_GPIO_WritePin' was here
+  299 | void              HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                   ^~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:58: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+16:46:12 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32g4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32g4xx_hal_msp.d" -MT"Core/Src/stm32g4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32g4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32g4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32g4xx_it.d" -MT"Core/Src/stm32g4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32g4xx_it.o"
+../Core/Src/SimpleParser.c: In function 'App_Controll':
+../Core/Src/SimpleParser.c:133:22: error: 'hlpuart1' undeclared (first use in this function); did you mean 'huart1'?
+  133 |   HAL_UART_Transmit(&hlpuart1, buffer, strlen((char*)buffer), 100);
+      |                      ^~~~~~~~
+      |                      huart1
+../Core/Src/SimpleParser.c:133:22: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:69:2: error: unknown type name 'motor_t'
+   69 |  motor_t Motor_L;
+      |  ^~~~~~~
+../Core/Src/main.c:70:2: error: unknown type name 'motor_t'
+   70 |  motor_t Motor_R;
+      |  ^~~~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:152:22: error: 'hadc1' undeclared (first use in this function); did you mean 'hadc3'?
+  152 |   HAL_ADC_Start_DMA(&hadc1, (uint32_t*)&GRUZIK.Adc_Value, 1);
+      |                      ^~~~~
+      |                      hadc3
+../Core/Src/main.c:152:22: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:171:28: error: 'hlpuart1' undeclared (first use in this function); did you mean 'huart1'?
+  171 |       HAL_UART_Receive_IT(&hlpuart1, &RxData, 1);
+      |                            ^~~~~~~~
+      |                            huart1
+../Core/Src/main.c:174:30: error: 'htim5' undeclared (first use in this function); did you mean 'htim2'?
+  174 |       HAL_TIM_Base_Start_IT(&htim5);// 100
+      |                              ^~~~~
+      |                              htim2
+../Core/Src/main.c:175:30: error: 'htim4' undeclared (first use in this function); did you mean 'htim2'?
+  175 |       HAL_TIM_Encoder_Start(&htim4, TIM_CHANNEL_ALL); // Left Encoder
+      |                              ^~~~~
+      |                              htim2
+../Core/Src/main.c:176:30: error: 'htim1' undeclared (first use in this function); did you mean 'htim2'?
+  176 |       HAL_TIM_Encoder_Start(&htim1, TIM_CHANNEL_ALL); // Right Encoder
+      |                              ^~~~~
+      |                              htim2
+../Core/Src/main.c:178:7: warning: implicit declaration of function 'Motor_Init' [-Wimplicit-function-declaration]
+  178 |       Motor_Init(&Motor_R, 0.1, 0.1, 10000, 0.01);
+      |       ^~~~~~~~~~
+../Core/Src/main.c:182:27: error: 'htim3' undeclared (first use in this function); did you mean 'htim2'?
+  182 |    HAL_TIM_Base_Start_IT(&htim3);
+      |                           ^~~~~
+      |                           htim2
+../Core/Src/main.c:187:25: error: 'LED_4_GPIO_Port' undeclared (first use in this function); did you mean 'LEDON_GPIO_Port'?
+  187 |       HAL_GPIO_WritePin(LED_4_GPIO_Port, LED_4_Pin, GPIO_PIN_SET);
+      |                         ^~~~~~~~~~~~~~~
+      |                         LEDON_GPIO_Port
+../Core/Src/main.c:187:42: error: 'LED_4_Pin' undeclared (first use in this function); did you mean 'LEDON_Pin'?
+  187 |       HAL_GPIO_WritePin(LED_4_GPIO_Port, LED_4_Pin, GPIO_PIN_SET);
+      |                                          ^~~~~~~~~
+      |                                          LEDON_Pin
+../Core/Src/main.c:188:25: error: 'LED_3_GPIO_Port' undeclared (first use in this function); did you mean 'LEDON_GPIO_Port'?
+  188 |       HAL_GPIO_WritePin(LED_3_GPIO_Port, LED_3_Pin, GPIO_PIN_SET);
+      |                         ^~~~~~~~~~~~~~~
+      |                         LEDON_GPIO_Port
+../Core/Src/main.c:188:42: error: 'LED_3_Pin' undeclared (first use in this function); did you mean 'LEDON_Pin'?
+  188 |       HAL_GPIO_WritePin(LED_3_GPIO_Port, LED_3_Pin, GPIO_PIN_SET);
+      |                                          ^~~~~~~~~
+      |                                          LEDON_Pin
+../Core/Src/main.c:189:25: error: 'LED_2_GPIO_Port' undeclared (first use in this function); did you mean 'LEDON_GPIO_Port'?
+  189 |       HAL_GPIO_WritePin(LED_2_GPIO_Port, LED_2_Pin, GPIO_PIN_SET);
+      |                         ^~~~~~~~~~~~~~~
+      |                         LEDON_GPIO_Port
+../Core/Src/main.c:189:42: error: 'LED_2_Pin' undeclared (first use in this function); did you mean 'LEDON_Pin'?
+  189 |       HAL_GPIO_WritePin(LED_2_GPIO_Port, LED_2_Pin, GPIO_PIN_SET);
+      |                                          ^~~~~~~~~
+      |                                          LEDON_Pin
+../Core/Src/main.c:190:25: error: 'LED_1_GPIO_Port' undeclared (first use in this function); did you mean 'LEDON_GPIO_Port'?
+  190 |       HAL_GPIO_WritePin(LED_1_GPIO_Port, LED_1_Pin, GPIO_PIN_SET);
+      |                         ^~~~~~~~~~~~~~~
+      |                         LEDON_GPIO_Port
+../Core/Src/main.c:190:42: error: 'LED_1_Pin' undeclared (first use in this function); did you mean 'LEDON_Pin'?
+  190 |       HAL_GPIO_WritePin(LED_1_GPIO_Port, LED_1_Pin, GPIO_PIN_SET);
+      |                                          ^~~~~~~~~
+      |                                          LEDON_Pin
+../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
+../Core/Src/main.c:274:27: error: 'hlpuart1' undeclared (first use in this function); did you mean 'huart1'?
+  274 |      HAL_UART_Receive_IT(&hlpuart1,&RxData, 1);
+      |                           ^~~~~~~~
+      |                           huart1
+../Core/Src/main.c: In function 'HAL_TIM_PeriodElapsedCallback':
+../Core/Src/main.c:283:10: error: request for member 'EncoderPreviousValue' in something not a structure or union
+  283 |   Motor_L.EncoderPreviousValue = Motor_L.EncoderValue;
+      |          ^
+../Core/Src/main.c:283:41: error: request for member 'EncoderValue' in something not a structure or union
+  283 |   Motor_L.EncoderPreviousValue = Motor_L.EncoderValue;
+      |                                         ^
+../Core/Src/main.c:284:10: error: request for member 'EncoderPreviousValue' in something not a structure or union
+  284 |   Motor_R.EncoderPreviousValue = Motor_R.EncoderValue;
+      |          ^
+../Core/Src/main.c:284:41: error: request for member 'EncoderValue' in something not a structure or union
+  284 |   Motor_R.EncoderPreviousValue = Motor_R.EncoderValue;
+      |                                         ^
+../Core/Src/main.c:286:10: error: request for member 'EncoderValue' in something not a structure or union
+  286 |   Motor_L.EncoderValue = __HAL_TIM_GET_COUNTER(&htim4);
+      |          ^
+In file included from ../Core/Inc/stm32g4xx_hal_conf.h:344,
+                 from ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Core/Src/main.c:286:49: error: 'htim4' undeclared (first use in this function); did you mean 'htim'?
+  286 |   Motor_L.EncoderValue = __HAL_TIM_GET_COUNTER(&htim4);
+      |                                                 ^~~~~
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h:1564:46: note: in definition of macro '__HAL_TIM_GET_COUNTER'
+ 1564 | #define __HAL_TIM_GET_COUNTER(__HANDLE__)  ((__HANDLE__)->Instance->CNT)
+      |                                              ^~~~~~~~~~
+../Core/Src/main.c:287:10: error: request for member 'EncoderValue' in something not a structure or union
+  287 |   Motor_R.EncoderValue = __HAL_TIM_GET_COUNTER(&htim1);
+      |          ^
+In file included from ../Core/Inc/stm32g4xx_hal_conf.h:344,
+                 from ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Core/Src/main.c:287:49: error: 'htim1' undeclared (first use in this function); did you mean 'htim'?
+  287 |   Motor_R.EncoderValue = __HAL_TIM_GET_COUNTER(&htim1);
+      |                                                 ^~~~~
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h:1564:46: note: in definition of macro '__HAL_TIM_GET_COUNTER'
+ 1564 | #define __HAL_TIM_GET_COUNTER(__HANDLE__)  ((__HANDLE__)->Instance->CNT)
+      |                                              ^~~~~~~~~~
+make: *** [Core/Src/subdir.mk:58: Core/Src/SimpleParser.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/main.c:289:6: warning: implicit declaration of function 'Motor_CalculateSpeed' [-Wimplicit-function-declaration]
+  289 |      Motor_CalculateSpeed(&Motor_R);
+      |      ^~~~~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32g4xx_hal_conf.h:344,
+                 from ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Core/Src/main.c: In function 'delay_us':
+../Core/Src/main.c:296:25: error: 'htim3' undeclared (first use in this function); did you mean 'htim2'?
+  296 |  __HAL_TIM_SET_COUNTER(&htim3,0);  // set the counter value a 0
+      |                         ^~~~~
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h:1557:59: note: in definition of macro '__HAL_TIM_SET_COUNTER'
+ 1557 | #define __HAL_TIM_SET_COUNTER(__HANDLE__, __COUNTER__)  ((__HANDLE__)->Instance->CNT = (__COUNTER__))
+      |                                                           ^~~~~~~~~~
+../Core/Src/main.c: In function 'motor_control':
+../Core/Src/main.c:325:21: error: 'Motor_L_A_GPIO_Port' undeclared (first use in this function); did you mean 'IN2_L_GPIO_Port'?
+  325 |   HAL_GPIO_WritePin(Motor_L_A_GPIO_Port, Motor_L_B_Pin, GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+      |                     IN2_L_GPIO_Port
+../Core/Src/main.c:325:42: error: 'Motor_L_B_Pin' undeclared (first use in this function)
+  325 |   HAL_GPIO_WritePin(Motor_L_A_GPIO_Port, Motor_L_B_Pin, GPIO_PIN_SET);
+      |                                          ^~~~~~~~~~~~~
+../Core/Src/main.c:326:21: error: 'Motor_L_B_GPIO_Port' undeclared (first use in this function); did you mean 'IN2_L_GPIO_Port'?
+  326 |   HAL_GPIO_WritePin(Motor_L_B_GPIO_Port, Motor_L_A_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+      |                     IN2_L_GPIO_Port
+../Core/Src/main.c:326:42: error: 'Motor_L_A_Pin' undeclared (first use in this function)
+  326 |   HAL_GPIO_WritePin(Motor_L_B_GPIO_Port, Motor_L_A_Pin, GPIO_PIN_RESET);
+      |                                          ^~~~~~~~~~~~~
+../Core/Src/main.c:338:21: error: 'Motor_R_A_GPIO_Port' undeclared (first use in this function)
+  338 |   HAL_GPIO_WritePin(Motor_R_A_GPIO_Port, Motor_R_A_Pin, GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:338:42: error: 'Motor_R_A_Pin' undeclared (first use in this function)
+  338 |   HAL_GPIO_WritePin(Motor_R_A_GPIO_Port, Motor_R_A_Pin, GPIO_PIN_SET);
+      |                                          ^~~~~~~~~~~~~
+../Core/Src/main.c:339:21: error: 'Motor_R_B_GPIO_Port' undeclared (first use in this function)
+  339 |   HAL_GPIO_WritePin(Motor_R_B_GPIO_Port, Motor_R_B_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:339:42: error: 'Motor_R_B_Pin' undeclared (first use in this function)
+  339 |   HAL_GPIO_WritePin(Motor_R_B_GPIO_Port, Motor_R_B_Pin, GPIO_PIN_RESET);
+      |                                          ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:58: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+16:49:17 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+../Core/Src/SimpleParser.c: In function 'App_Controll':
+../Core/Src/SimpleParser.c:133:22: error: 'hlpuart1' undeclared (first use in this function); did you mean 'huart1'?
+  133 |   HAL_UART_Transmit(&hlpuart1, buffer, strlen((char*)buffer), 100);
+      |                      ^~~~~~~~
+      |                      huart1
+../Core/Src/SimpleParser.c:133:22: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:172:27: error: 'htim3' undeclared (first use in this function); did you mean 'htim2'?
+  172 |    HAL_TIM_Base_Start_IT(&htim3);
+      |                           ^~~~~
+      |                           htim2
+../Core/Src/main.c:172:27: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:178:25: error: 'LEDGPIO_Port' undeclared (first use in this function); did you mean 'LED_GPIO_Port'?
+  178 |       HAL_GPIO_WritePin(LEDGPIO_Port, LED_Pin, GPIO_PIN_SET);
+      |                         ^~~~~~~~~~~~
+      |                         LED_GPIO_Port
+make: *** [Core/Src/subdir.mk:58: Core/Src/SimpleParser.o] Error 1
+make: *** Waiting for unfinished jobs....
+In file included from ../Core/Inc/stm32g4xx_hal_conf.h:344,
+                 from ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+../Core/Src/main.c: In function 'delay_us':
+../Core/Src/main.c:268:25: error: 'htim3' undeclared (first use in this function); did you mean 'htim2'?
+  268 |  __HAL_TIM_SET_COUNTER(&htim3,0);  // set the counter value a 0
+      |                         ^~~~~
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h:1557:59: note: in definition of macro '__HAL_TIM_SET_COUNTER'
+ 1557 | #define __HAL_TIM_SET_COUNTER(__HANDLE__, __COUNTER__)  ((__HANDLE__)->Instance->CNT = (__COUNTER__))
+      |                                                           ^~~~~~~~~~
+../Core/Src/main.c: In function 'motor_control':
+../Core/Src/main.c:297:21: error: 'Motor_L_A_GPIO_Port' undeclared (first use in this function); did you mean 'IN2_L_GPIO_Port'?
+  297 |   HAL_GPIO_WritePin(Motor_L_A_GPIO_Port, Motor_L_B_Pin, GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+      |                     IN2_L_GPIO_Port
+../Core/Src/main.c:297:42: error: 'Motor_L_B_Pin' undeclared (first use in this function)
+  297 |   HAL_GPIO_WritePin(Motor_L_A_GPIO_Port, Motor_L_B_Pin, GPIO_PIN_SET);
+      |                                          ^~~~~~~~~~~~~
+../Core/Src/main.c:298:21: error: 'Motor_L_B_GPIO_Port' undeclared (first use in this function); did you mean 'IN2_L_GPIO_Port'?
+  298 |   HAL_GPIO_WritePin(Motor_L_B_GPIO_Port, Motor_L_A_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+      |                     IN2_L_GPIO_Port
+../Core/Src/main.c:298:42: error: 'Motor_L_A_Pin' undeclared (first use in this function)
+  298 |   HAL_GPIO_WritePin(Motor_L_B_GPIO_Port, Motor_L_A_Pin, GPIO_PIN_RESET);
+      |                                          ^~~~~~~~~~~~~
+../Core/Src/main.c:310:21: error: 'Motor_R_A_GPIO_Port' undeclared (first use in this function)
+  310 |   HAL_GPIO_WritePin(Motor_R_A_GPIO_Port, Motor_R_A_Pin, GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:310:42: error: 'Motor_R_A_Pin' undeclared (first use in this function)
+  310 |   HAL_GPIO_WritePin(Motor_R_A_GPIO_Port, Motor_R_A_Pin, GPIO_PIN_SET);
+      |                                          ^~~~~~~~~~~~~
+../Core/Src/main.c:311:21: error: 'Motor_R_B_GPIO_Port' undeclared (first use in this function)
+  311 |   HAL_GPIO_WritePin(Motor_R_B_GPIO_Port, Motor_R_B_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:311:42: error: 'Motor_R_B_Pin' undeclared (first use in this function)
+  311 |   HAL_GPIO_WritePin(Motor_R_B_GPIO_Port, Motor_R_B_Pin, GPIO_PIN_RESET);
+      |                                          ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:58: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+16:55:12 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32g4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32g4xx_it.d" -MT"Core/Src/stm32g4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32g4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32g4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32g4xx.d" -MT"Core/Src/system_stm32g4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32g4xx.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:179:25: error: 'LEDGPIO_Port' undeclared (first use in this function); did you mean 'LED_GPIO_Port'?
+  179 |       HAL_GPIO_WritePin(LEDGPIO_Port, LED_Pin, GPIO_PIN_SET);
+      |                         ^~~~~~~~~~~~
+      |                         LED_GPIO_Port
+../Core/Src/main.c:179:25: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/SimpleParser.c: In function 'App_Controll':
+../Core/Src/SimpleParser.c:133:22: error: 'hlpuart1' undeclared (first use in this function); did you mean 'huart1'?
+  133 |   HAL_UART_Transmit(&hlpuart1, buffer, strlen((char*)buffer), 100);
+      |                      ^~~~~~~~
+      |                      huart1
+../Core/Src/SimpleParser.c:133:22: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c: In function 'motor_control':
+../Core/Src/main.c:298:21: error: 'Motor_L_A_GPIO_Port' undeclared (first use in this function); did you mean 'IN2_L_GPIO_Port'?
+  298 |   HAL_GPIO_WritePin(Motor_L_A_GPIO_Port, Motor_L_B_Pin, GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+      |                     IN2_L_GPIO_Port
+../Core/Src/main.c:298:42: error: 'Motor_L_B_Pin' undeclared (first use in this function)
+  298 |   HAL_GPIO_WritePin(Motor_L_A_GPIO_Port, Motor_L_B_Pin, GPIO_PIN_SET);
+      |                                          ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:58: Core/Src/SimpleParser.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/main.c:299:21: error: 'Motor_L_B_GPIO_Port' undeclared (first use in this function); did you mean 'IN2_L_GPIO_Port'?
+  299 |   HAL_GPIO_WritePin(Motor_L_B_GPIO_Port, Motor_L_A_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+      |                     IN2_L_GPIO_Port
+../Core/Src/main.c:299:42: error: 'Motor_L_A_Pin' undeclared (first use in this function)
+  299 |   HAL_GPIO_WritePin(Motor_L_B_GPIO_Port, Motor_L_A_Pin, GPIO_PIN_RESET);
+      |                                          ^~~~~~~~~~~~~
+../Core/Src/main.c:311:21: error: 'Motor_R_A_GPIO_Port' undeclared (first use in this function)
+  311 |   HAL_GPIO_WritePin(Motor_R_A_GPIO_Port, Motor_R_A_Pin, GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:311:42: error: 'Motor_R_A_Pin' undeclared (first use in this function)
+  311 |   HAL_GPIO_WritePin(Motor_R_A_GPIO_Port, Motor_R_A_Pin, GPIO_PIN_SET);
+      |                                          ^~~~~~~~~~~~~
+../Core/Src/main.c:312:21: error: 'Motor_R_B_GPIO_Port' undeclared (first use in this function)
+  312 |   HAL_GPIO_WritePin(Motor_R_B_GPIO_Port, Motor_R_B_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:312:42: error: 'Motor_R_B_Pin' undeclared (first use in this function)
+  312 |   HAL_GPIO_WritePin(Motor_R_B_GPIO_Port, Motor_R_B_Pin, GPIO_PIN_RESET);
+      |                                          ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:58: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+16:55:34 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc "../Core/Src/usart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/usart.d" -MT"Core/Src/usart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usart.o"
+../Core/Src/SimpleParser.c: In function 'App_Controll':
+../Core/Src/SimpleParser.c:133:22: error: 'hlpuart1' undeclared (first use in this function); did you mean 'huart1'?
+  133 |   HAL_UART_Transmit(&hlpuart1, buffer, strlen((char*)buffer), 100);
+      |                      ^~~~~~~~
+      |                      huart1
+../Core/Src/SimpleParser.c:133:22: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c: In function 'motor_control':
+../Core/Src/main.c:298:21: error: 'Motor_L_A_GPIO_Port' undeclared (first use in this function); did you mean 'IN2_L_GPIO_Port'?
+  298 |   HAL_GPIO_WritePin(Motor_L_A_GPIO_Port, Motor_L_B_Pin, GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+      |                     IN2_L_GPIO_Port
+../Core/Src/main.c:298:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:298:42: error: 'Motor_L_B_Pin' undeclared (first use in this function)
+  298 |   HAL_GPIO_WritePin(Motor_L_A_GPIO_Port, Motor_L_B_Pin, GPIO_PIN_SET);
+      |                                          ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:58: Core/Src/SimpleParser.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/main.c:299:21: error: 'Motor_L_B_GPIO_Port' undeclared (first use in this function); did you mean 'IN2_L_GPIO_Port'?
+  299 |   HAL_GPIO_WritePin(Motor_L_B_GPIO_Port, Motor_L_A_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+      |                     IN2_L_GPIO_Port
+../Core/Src/main.c:299:42: error: 'Motor_L_A_Pin' undeclared (first use in this function)
+  299 |   HAL_GPIO_WritePin(Motor_L_B_GPIO_Port, Motor_L_A_Pin, GPIO_PIN_RESET);
+      |                                          ^~~~~~~~~~~~~
+../Core/Src/main.c:311:21: error: 'Motor_R_A_GPIO_Port' undeclared (first use in this function)
+  311 |   HAL_GPIO_WritePin(Motor_R_A_GPIO_Port, Motor_R_A_Pin, GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:311:42: error: 'Motor_R_A_Pin' undeclared (first use in this function)
+  311 |   HAL_GPIO_WritePin(Motor_R_A_GPIO_Port, Motor_R_A_Pin, GPIO_PIN_SET);
+      |                                          ^~~~~~~~~~~~~
+../Core/Src/main.c:312:21: error: 'Motor_R_B_GPIO_Port' undeclared (first use in this function)
+  312 |   HAL_GPIO_WritePin(Motor_R_B_GPIO_Port, Motor_R_B_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:312:42: error: 'Motor_R_B_Pin' undeclared (first use in this function)
+  312 |   HAL_GPIO_WritePin(Motor_R_B_GPIO_Port, Motor_R_B_Pin, GPIO_PIN_RESET);
+      |                                          ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:58: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+16:57:07 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/SimpleParser.c: In function 'App_Controll':
+../Core/Src/SimpleParser.c:150:23: error: 'hlpuart1' undeclared (first use in this function); did you mean 'huart1'?
+  150 |    HAL_UART_Transmit(&hlpuart1, buffer, strlen((char*)buffer), 100);
+      |                       ^~~~~~~~
+      |                       huart1
+../Core/Src/SimpleParser.c:150:23: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:58: Core/Src/SimpleParser.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/main.c: In function 'motor_control':
+../Core/Src/main.c:298:21: error: 'Motor_L_A_GPIO_Port' undeclared (first use in this function); did you mean 'IN2_L_GPIO_Port'?
+  298 |   HAL_GPIO_WritePin(Motor_L_A_GPIO_Port, Motor_L_B_Pin, GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+      |                     IN2_L_GPIO_Port
+../Core/Src/main.c:298:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:298:42: error: 'Motor_L_B_Pin' undeclared (first use in this function)
+  298 |   HAL_GPIO_WritePin(Motor_L_A_GPIO_Port, Motor_L_B_Pin, GPIO_PIN_SET);
+      |                                          ^~~~~~~~~~~~~
+../Core/Src/main.c:299:21: error: 'Motor_L_B_GPIO_Port' undeclared (first use in this function); did you mean 'IN2_L_GPIO_Port'?
+  299 |   HAL_GPIO_WritePin(Motor_L_B_GPIO_Port, Motor_L_A_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+      |                     IN2_L_GPIO_Port
+../Core/Src/main.c:299:42: error: 'Motor_L_A_Pin' undeclared (first use in this function)
+  299 |   HAL_GPIO_WritePin(Motor_L_B_GPIO_Port, Motor_L_A_Pin, GPIO_PIN_RESET);
+      |                                          ^~~~~~~~~~~~~
+../Core/Src/main.c:311:21: error: 'Motor_R_A_GPIO_Port' undeclared (first use in this function)
+  311 |   HAL_GPIO_WritePin(Motor_R_A_GPIO_Port, Motor_R_A_Pin, GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:311:42: error: 'Motor_R_A_Pin' undeclared (first use in this function)
+  311 |   HAL_GPIO_WritePin(Motor_R_A_GPIO_Port, Motor_R_A_Pin, GPIO_PIN_SET);
+      |                                          ^~~~~~~~~~~~~
+../Core/Src/main.c:312:21: error: 'Motor_R_B_GPIO_Port' undeclared (first use in this function)
+  312 |   HAL_GPIO_WritePin(Motor_R_B_GPIO_Port, Motor_R_B_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:312:42: error: 'Motor_R_B_Pin' undeclared (first use in this function)
+  312 |   HAL_GPIO_WritePin(Motor_R_B_GPIO_Port, Motor_R_B_Pin, GPIO_PIN_RESET);
+      |                                          ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:58: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+16:57:15 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'motor_control':
+../Core/Src/main.c:298:21: error: 'Motor_L_A_GPIO_Port' undeclared (first use in this function); did you mean 'IN2_L_GPIO_Port'?
+  298 |   HAL_GPIO_WritePin(Motor_L_A_GPIO_Port, Motor_L_B_Pin, GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+      |                     IN2_L_GPIO_Port
+../Core/Src/main.c:298:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:298:42: error: 'Motor_L_B_Pin' undeclared (first use in this function)
+  298 |   HAL_GPIO_WritePin(Motor_L_A_GPIO_Port, Motor_L_B_Pin, GPIO_PIN_SET);
+      |                                          ^~~~~~~~~~~~~
+../Core/Src/main.c:299:21: error: 'Motor_L_B_GPIO_Port' undeclared (first use in this function); did you mean 'IN2_L_GPIO_Port'?
+  299 |   HAL_GPIO_WritePin(Motor_L_B_GPIO_Port, Motor_L_A_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+      |                     IN2_L_GPIO_Port
+../Core/Src/main.c:299:42: error: 'Motor_L_A_Pin' undeclared (first use in this function)
+  299 |   HAL_GPIO_WritePin(Motor_L_B_GPIO_Port, Motor_L_A_Pin, GPIO_PIN_RESET);
+      |                                          ^~~~~~~~~~~~~
+../Core/Src/main.c:311:21: error: 'Motor_R_A_GPIO_Port' undeclared (first use in this function)
+  311 |   HAL_GPIO_WritePin(Motor_R_A_GPIO_Port, Motor_R_A_Pin, GPIO_PIN_SET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:311:42: error: 'Motor_R_A_Pin' undeclared (first use in this function)
+  311 |   HAL_GPIO_WritePin(Motor_R_A_GPIO_Port, Motor_R_A_Pin, GPIO_PIN_SET);
+      |                                          ^~~~~~~~~~~~~
+../Core/Src/main.c:312:21: error: 'Motor_R_B_GPIO_Port' undeclared (first use in this function)
+  312 |   HAL_GPIO_WritePin(Motor_R_B_GPIO_Port, Motor_R_B_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:312:42: error: 'Motor_R_B_Pin' undeclared (first use in this function)
+  312 |   HAL_GPIO_WritePin(Motor_R_B_GPIO_Port, Motor_R_B_Pin, GPIO_PIN_RESET);
+      |                                          ^~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:58: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+17:06:15 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/tim.o"
+../Core/Src/main.c: In function 'motor_control':
+../Core/Src/main.c:298:38: error: 'IN1_L_Pin' undeclared (first use in this function); did you mean 'IN2_L_Pin'?
+  298 |   HAL_GPIO_WritePin(IN_1L_GPIO_Port, IN1_L_Pin, GPIO_PIN_SET);
+      |                                      ^~~~~~~~~
+      |                                      IN2_L_Pin
+../Core/Src/main.c:298:38: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/SimpleParser.c: In function 'App_Controll':
+../Core/Src/SimpleParser.c:128:21: error: 'PD2' undeclared (first use in this function)
+  128 |   HAL_GPIO_WritePin(PD2, GPIO_Pin, PinState)
+      |                     ^~~
+../Core/Src/SimpleParser.c:128:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:561:1: error: expected declaration or statement at end of input
+  561 | }
+      | ^
+../Core/Src/SimpleParser.c:128:26: error: 'GPIO_Pin' undeclared (first use in this function); did you mean 'GPIO_PinState'?
+  128 |   HAL_GPIO_WritePin(PD2, GPIO_Pin, PinState)
+      |                          ^~~~~~~~
+      |                          GPIO_PinState
+At top level:
+../Core/Src/main.c:552:6: warning: 'Error_Handler' defined but not used [-Wunused-function]
+  552 | void Error_Handler(void)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:522:6: warning: 'PID_control' defined but not used [-Wunused-function]
+  522 | void PID_control()
+      |      ^~~~~~~~~~~
+../Core/Src/SimpleParser.c:128:36: error: 'PinState' undeclared (first use in this function)
+  128 |   HAL_GPIO_WritePin(PD2, GPIO_Pin, PinState)
+      |                                    ^~~~~~~~
+../Core/Src/SimpleParser.c:128:45: error: expected ';' before 'LineFollower'
+  128 |   HAL_GPIO_WritePin(PD2, GPIO_Pin, PinState)
+      |                                             ^
+      |                                             ;
+  129 |   /*Send battery voltage*/
+  130 |   LineFollower->battery_voltage = (LineFollower->Adc_Value * 8.3)/3831;
+      |   ~~~~~~~~~~~~                               
+make: *** [Core/Src/subdir.mk:58: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:58: Core/Src/SimpleParser.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+17:07:37 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'motor_control':
+../Core/Src/main.c:298:38: error: 'IN1_L_Pin' undeclared (first use in this function); did you mean 'IN2_L_Pin'?
+  298 |   HAL_GPIO_WritePin(IN_1L_GPIO_Port, IN1_L_Pin, GPIO_PIN_SET);
+      |                                      ^~~~~~~~~
+      |                                      IN2_L_Pin
+../Core/Src/main.c:298:38: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:561:1: error: expected declaration or statement at end of input
+  561 | }
+      | ^
+At top level:
+../Core/Src/main.c:552:6: warning: 'Error_Handler' defined but not used [-Wunused-function]
+  552 | void Error_Handler(void)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:522:6: warning: 'PID_control' defined but not used [-Wunused-function]
+  522 | void PID_control()
+      |      ^~~~~~~~~~~
+../Core/Src/SimpleParser.c: In function 'App_Controll':
+../Core/Src/SimpleParser.c:128:21: error: 'PD2_GPIO_Port' undeclared (first use in this function); did you mean 'LED_GPIO_Port'?
+  128 |   HAL_GPIO_WritePin(PD2_GPIO_Port, PD2_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~
+      |                     LED_GPIO_Port
+../Core/Src/SimpleParser.c:128:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/SimpleParser.c:128:36: error: 'PD2_Pin' undeclared (first use in this function)
+  128 |   HAL_GPIO_WritePin(PD2_GPIO_Port, PD2_Pin, GPIO_PIN_RESET);
+      |                                    ^~~~~~~
+make: *** [Core/Src/subdir.mk:58: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+../Core/Src/SimpleParser.c:129:21: error: 'PA4_GPIO_Port' undeclared (first use in this function); did you mean 'LED_GPIO_Port'?
+  129 |   HAL_GPIO_WritePin(PA4_GPIO_Port, PA4_Pin, GPIO_PIN_RESET);
+      |                     ^~~~~~~~~~~~~
+      |                     LED_GPIO_Port
+../Core/Src/SimpleParser.c:129:36: error: 'PA4_Pin' undeclared (first use in this function)
+  129 |   HAL_GPIO_WritePin(PA4_GPIO_Port, PA4_Pin, GPIO_PIN_RESET);
+      |                                    ^~~~~~~
+make: *** [Core/Src/subdir.mk:58: Core/Src/SimpleParser.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+17:10:18 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'motor_control':
+../Core/Src/main.c:298:38: error: 'IN1_L_Pin' undeclared (first use in this function); did you mean 'IN2_L_Pin'?
+  298 |   HAL_GPIO_WritePin(IN_1L_GPIO_Port, IN1_L_Pin, GPIO_PIN_SET);
+      |                                      ^~~~~~~~~
+      |                                      IN2_L_Pin
+../Core/Src/main.c:298:38: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:561:1: error: expected declaration or statement at end of input
+  561 | }
+      | ^
+At top level:
+../Core/Src/main.c:552:6: warning: 'Error_Handler' defined but not used [-Wunused-function]
+  552 | void Error_Handler(void)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:522:6: warning: 'PID_control' defined but not used [-Wunused-function]
+  522 | void PID_control()
+      |      ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:58: Core/Src/main.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+17:10:42 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'motor_control':
+../Core/Src/main.c:305:38: error: 'IN1_L_Pin' undeclared (first use in this function); did you mean 'IN2_L_Pin'?
+  305 |   HAL_GPIO_WritePin(IN_1L_GPIO_Port, IN1_L_Pin, GPIO_PIN_RESET);
+      |                                      ^~~~~~~~~
+      |                                      IN2_L_Pin
+../Core/Src/main.c:305:38: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/main.c:561:1: error: expected declaration or statement at end of input
+  561 | }
+      | ^
+At top level:
+../Core/Src/main.c:552:6: warning: 'Error_Handler' defined but not used [-Wunused-function]
+  552 | void Error_Handler(void)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:522:6: warning: 'PID_control' defined but not used [-Wunused-function]
+  522 | void PID_control()
+      |      ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:58: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+17:10:54 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'motor_control':
+../Core/Src/main.c:561:1: error: expected declaration or statement at end of input
+  561 | }
+      | ^
+At top level:
+../Core/Src/main.c:552:6: warning: 'Error_Handler' defined but not used [-Wunused-function]
+  552 | void Error_Handler(void)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:522:6: warning: 'PID_control' defined but not used [-Wunused-function]
+  522 | void PID_control()
+      |      ^~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:58: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+17:11:27 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  58096	    492	   2348	  60936	   ee08	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+17:12:43 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-size   REGIN_2024.elf 
+   text	   data	    bss	    dec	    hex	filename
+  58096	    492	   2348	  60936	   ee08	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+17:16:04 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-size   REGIN_2024.elf 
+   text	   data	    bss	    dec	    hex	filename
+  58096	    492	   2348	  60936	   ee08	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+17:18:33 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_UART_RxCpltCallback':
+../Core/Src/main.c:254:24: error: 'UART1' undeclared (first use in this function); did you mean 'UART4'?
+  254 |  if(huart->Instance == UART1)
+      |                        ^~~~~
+      |                        UART4
+../Core/Src/main.c:254:24: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:58: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+17:18:44 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  58096	    492	   2348	  60936	   ee08	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+17:18:50 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-size   REGIN_2024.elf 
+   text	   data	    bss	    dec	    hex	filename
+  58096	    492	   2348	  60936	   ee08	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+17:19:43 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/stm32g4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32g4xx_it.d" -MT"Core/Src/stm32g4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32g4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/usart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/usart.d" -MT"Core/Src/usart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usart.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  60336	    492	   2348	  63176	   f6c8	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+17:20:24 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-size   REGIN_2024.elf 
+   text	   data	    bss	    dec	    hex	filename
+  60336	    492	   2348	  63176	   f6c8	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+17:21:22 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-size   REGIN_2024.elf 
+   text	   data	    bss	    dec	    hex	filename
+  60336	    492	   2348	  63176	   f6c8	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+17:23:57 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/SimpleParser.c: In function 'App_Controll':
+../Core/Src/SimpleParser.c:128:3: error: too few arguments to function 'HAL_GPIO_WritePin'
+  128 |   HAL_GPIO_WritePin();
+      |   ^~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32g4xx_hal_conf.h:216,
+                 from ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/SimpleParser.c:9:
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h:299:19: note: declared here
+  299 | void              HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                   ^~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:58: Core/Src/SimpleParser.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+17:25:18 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+../Core/Src/SimpleParser.c: In function 'App_Controll':
+../Core/Src/SimpleParser.c:128:21: error: 'PD2' undeclared (first use in this function)
+  128 |   HAL_GPIO_WritePin(PD2);
+      |                     ^~~
+../Core/Src/SimpleParser.c:128:21: note: each undeclared identifier is reported only once for each function it appears in
+../Core/Src/SimpleParser.c:128:3: error: too few arguments to function 'HAL_GPIO_WritePin'
+  128 |   HAL_GPIO_WritePin(PD2);
+      |   ^~~~~~~~~~~~~~~~~
+In file included from ../Core/Inc/stm32g4xx_hal_conf.h:216,
+                 from ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/SimpleParser.c:9:
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_gpio.h:299:19: note: declared here
+  299 | void              HAL_GPIO_WritePin(GPIO_TypeDef *GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+      |                   ^~~~~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:58: Core/Src/SimpleParser.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+17:27:32 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  60336	    492	   2348	  63176	   f6c8	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+17:27:59 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-size   REGIN_2024.elf 
+   text	   data	    bss	    dec	    hex	filename
+  60336	    492	   2348	  63176	   f6c8	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+17:28:25 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-size   REGIN_2024.elf 
+   text	   data	    bss	    dec	    hex	filename
+  60336	    492	   2348	  63176	   f6c8	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+17:29:52 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  60336	    492	   2348	  63176	   f6c8	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+17:34:38 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'QTR8_read':
+../Core/Src/main.c:406:22: error: 'hlpuart1' undeclared (first use in this function); did you mean 'huart1'?
+  406 |   HAL_UART_Transmit(&hlpuart1, Message, strlen((char*)Message), 100);
+      |                      ^~~~~~~~
+      |                      huart1
+../Core/Src/main.c:406:22: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:58: Core/Src/main.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+17:34:56 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  60880	    492	   2348	  63720	   f8e8	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+17:40:27 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/Line_Follower.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Line_Follower.d" -MT"Core/Src/Line_Follower.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Line_Follower.o"
+arm-none-eabi-gcc "../Core/Src/RingBuffer.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/RingBuffer.d" -MT"Core/Src/RingBuffer.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/RingBuffer.o"
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc "../Core/Src/adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/adc.d" -MT"Core/Src/adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/adc.o"
+arm-none-eabi-gcc "../Core/Src/dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/dma.d" -MT"Core/Src/dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/dma.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32g4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32g4xx_hal_msp.d" -MT"Core/Src/stm32g4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32g4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32g4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32g4xx_it.d" -MT"Core/Src/stm32g4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32g4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc "../Core/Src/usart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/usart.d" -MT"Core/Src/usart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usart.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  60888	    492	   2348	  63728	   f8f0	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+17:40:42 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-size   REGIN_2024.elf 
+   text	   data	    bss	    dec	    hex	filename
+  60888	    492	   2348	  63728	   f8f0	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+18:47:48 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/Line_Follower.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Line_Follower.d" -MT"Core/Src/Line_Follower.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Line_Follower.o"
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+In file included from ../Core/Src/main.c:32:
+../Core/Inc/Line_Follower.h:32:2: error: expected specifier-qualifier-list before 'Trub'
+   32 |  Trub
+      |  ^~~~
+In file included from ../Core/Src/Line_Follower.c:15:
+../Core/Inc/Line_Follower.h:32:2: error: expected specifier-qualifier-list before 'Trub'
+   32 |  Trub
+      |  ^~~~
+In file included from ../Core/Inc/SimpleParser.h:14,
+                 from ../Core/Src/SimpleParser.c:16:
+../Core/Inc/Line_Follower.h:32:2: error: expected specifier-qualifier-list before 'Trub'
+   32 |  Trub
+      |  ^~~~
+make: *** [Core/Src/subdir.mk:58: Core/Src/Line_Follower.o] Error 1
+make: *** Waiting for unfinished jobs....
+make: *** [Core/Src/subdir.mk:58: Core/Src/main.o] Error 1
+make: *** [Core/Src/subdir.mk:58: Core/Src/SimpleParser.o] Error 1
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+18:48:10 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/Line_Follower.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Line_Follower.d" -MT"Core/Src/Line_Follower.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Line_Follower.o"
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  60888	    492	   2364	  63744	   f900	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+18:56:32 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/Line_Follower.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Line_Follower.d" -MT"Core/Src/Line_Follower.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Line_Follower.o"
+arm-none-eabi-gcc "../Core/Src/RingBuffer.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/RingBuffer.d" -MT"Core/Src/RingBuffer.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/RingBuffer.o"
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc "../Core/Src/Trubine.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Trubine.d" -MT"Core/Src/Trubine.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Trubine.o"
+arm-none-eabi-gcc "../Core/Src/adc.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/adc.d" -MT"Core/Src/adc.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/adc.o"
+arm-none-eabi-gcc "../Core/Src/dma.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/dma.d" -MT"Core/Src/dma.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/dma.o"
+arm-none-eabi-gcc "../Core/Src/gpio.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/gpio.d" -MT"Core/Src/gpio.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/gpio.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32g4xx_hal_msp.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32g4xx_hal_msp.d" -MT"Core/Src/stm32g4xx_hal_msp.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32g4xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32g4xx_it.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/stm32g4xx_it.d" -MT"Core/Src/stm32g4xx_it.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32g4xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32g4xx.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/system_stm32g4xx.d" -MT"Core/Src/system_stm32g4xx.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32g4xx.o"
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc "../Core/Src/usart.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/usart.d" -MT"Core/Src/usart.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/usart.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  60888	    492	   2356	  63736	   f8f8	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+18:57:46 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/Line_Follower.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Line_Follower.d" -MT"Core/Src/Line_Follower.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Line_Follower.o"
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc "../Core/Src/Trubine.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Trubine.d" -MT"Core/Src/Trubine.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Trubine.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/Trubine.c: In function 'Turbine_init':
+../Core/Src/Trubine.c:18:1: error: expected identifier before '}' token
+   18 | }
+      | ^
+make: *** [Core/Src/subdir.mk:61: Core/Src/Trubine.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+18:58:18 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/Trubine.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Trubine.d" -MT"Core/Src/Trubine.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Trubine.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  60888	    492	   2364	  63744	   f900	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+19:06:47 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/Line_Follower.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Line_Follower.d" -MT"Core/Src/Line_Follower.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Line_Follower.o"
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc "../Core/Src/Trubine.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Trubine.d" -MT"Core/Src/Trubine.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Trubine.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  60984	    492	   2364	  63840	   f960	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+19:07:21 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-size   REGIN_2024.elf 
+   text	   data	    bss	    dec	    hex	filename
+  60984	    492	   2364	  63840	   f960	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+19:10:16 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/Line_Follower.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Line_Follower.d" -MT"Core/Src/Line_Follower.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Line_Follower.o"
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc "../Core/Src/Trubine.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Trubine.d" -MT"Core/Src/Trubine.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Trubine.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  60984	    492	   2364	  63840	   f960	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+19:16:10 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/SimpleParser.c: In function 'App_Controll':
+../Core/Src/SimpleParser.c:126:28: error: incompatible type for argument 1 of 'Turbine_Stop'
+  126 |   Turbine_Stop(LineFollower->turbine);
+      |                ~~~~~~~~~~~~^~~~~~~~~
+      |                            |
+      |                            Turbine_t
+In file included from ../Core/Inc/Line_Follower.h:7,
+                 from ../Core/Inc/SimpleParser.h:14,
+                 from ../Core/Src/SimpleParser.c:16:
+../Core/Inc/Turbine.h:25:30: note: expected 'Turbine_t *' but argument is of type 'Turbine_t'
+   25 | void Turbine_Stop(Turbine_t *turbine);
+      |                   ~~~~~~~~~~~^~~~~~~
+../Core/Src/SimpleParser.c:141:29: error: incompatible type for argument 1 of 'Turbine_Start'
+  141 |   Turbine_Start(LineFollower->turbine);
+      |                 ~~~~~~~~~~~~^~~~~~~~~
+      |                             |
+      |                             Turbine_t
+In file included from ../Core/Inc/Line_Follower.h:7,
+                 from ../Core/Inc/SimpleParser.h:14,
+                 from ../Core/Src/SimpleParser.c:16:
+../Core/Inc/Turbine.h:24:31: note: expected 'Turbine_t *' but argument is of type 'Turbine_t'
+   24 | void Turbine_Start(Turbine_t *turbine);
+      |                    ~~~~~~~~~~~^~~~~~~
+make: *** [Core/Src/subdir.mk:61: Core/Src/SimpleParser.o] Error 1
+make: *** Waiting for unfinished jobs....
+"make -j4 all" terminated with exit code 2. Build might be incomplete.
+19:16:26 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  61336	    492	   2364	  64192	   fac0	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+19:57:04 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  61336	    492	   2364	  64192	   fac0	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+19:57:29 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-size   REGIN_2024.elf 
+   text	   data	    bss	    dec	    hex	filename
+  61336	    492	   2364	  64192	   fac0	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+19:59:10 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  61344	    492	   2364	  64200	   fac8	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+20:01:59 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  61376	    492	   2364	  64232	   fae8	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+20:02:17 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-size   REGIN_2024.elf 
+   text	   data	    bss	    dec	    hex	filename
+  61376	    492	   2364	  64232	   fae8	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+20:03:59 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  61312	    492	   2364	  64168	   faa8	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+20:04:39 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  61280	    492	   2364	  64136	   fa88	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+21:13:53 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/Trubine.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Trubine.d" -MT"Core/Src/Trubine.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Trubine.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/Trubine.c: In function 'Turbine_init':
+../Core/Src/Trubine.c:19:20: warning: passing argument 1 of 'HAL_TIM_PWM_Start' from incompatible pointer type [-Wincompatible-pointer-types]
+   19 |  HAL_TIM_PWM_Start(&turbine->Timer, turbine->Channel);
+      |                    ^~~~~~~~~~~~~~~
+      |                    |
+      |                    TIM_HandleTypeDef **
+In file included from ../Core/Inc/stm32g4xx_hal_conf.h:344,
+                 from ../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/Trubine.c:9:
+../Drivers/STM32G4xx_HAL_Driver/Inc/stm32g4xx_hal_tim.h:2396:56: note: expected 'TIM_HandleTypeDef *' but argument is of type 'TIM_HandleTypeDef **'
+ 2396 | HAL_StatusTypeDef HAL_TIM_PWM_Start(TIM_HandleTypeDef *htim, uint32_t Channel);
+      |                                     ~~~~~~~~~~~~~~~~~~~^~~~
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  61288	    492	   2364	  64144	   fa90	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+21:14:04 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/Trubine.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/Trubine.d" -MT"Core/Src/Trubine.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Trubine.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  61288	    492	   2364	  64144	   fa90	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+21:15:29 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  61288	    492	   2364	  64144	   fa90	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+21:15:49 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-size   REGIN_2024.elf 
+   text	   data	    bss	    dec	    hex	filename
+  61288	    492	   2364	  64144	   fa90	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+01:20:14 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  61624	    492	   2436	  64552	   fc28	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+01:32:52 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  61632	    492	   2436	  64560	   fc30	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+01:35:28 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-size   REGIN_2024.elf 
+   text	   data	    bss	    dec	    hex	filename
+  61632	    492	   2436	  64560	   fc30	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+01:35:34 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-size   REGIN_2024.elf 
+   text	   data	    bss	    dec	    hex	filename
+  61632	    492	   2436	  64560	   fc30	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+01:37:03 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/tim.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/tim.d" -MT"Core/Src/tim.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/tim.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  61632	    492	   2436	  64560	   fc30	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
+01:37:28 **** Incremental Build of configuration Debug for project REGIN_2024 ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/SimpleParser.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32G474xx -c -I../Core/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc -I../Drivers/STM32G4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32G4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/SimpleParser.d" -MT"Core/Src/SimpleParser.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/SimpleParser.o"
+arm-none-eabi-gcc -o "REGIN_2024.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\Szymon\OneDrive\Pulpit\Regin_2024r\REGIN_2024\STM32G474RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="REGIN_2024.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: REGIN_2024.elf
+ 
+arm-none-eabi-size   REGIN_2024.elf 
+arm-none-eabi-objdump -h -S  REGIN_2024.elf  > "REGIN_2024.list"
+   text	   data	    bss	    dec	    hex	filename
+  61632	    492	   2436	  64560	   fc30	REGIN_2024.elf
+Finished building: default.size.stdout
+ 
+Finished building: REGIN_2024.list
+ 
